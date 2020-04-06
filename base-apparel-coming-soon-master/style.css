@@ -1,0 +1,107 @@
+
+    
+  
+    /* Pen-specific styles */
+html, body, section {
+    height: 100%;
+  }
+  
+  body {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    
+  }
+
+  .content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0 0 150px;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: flex;
+  }
+  
+  .left-half {
+    
+    flex: 0.8;
+    padding-left:8rem;
+    align-items: flex-start;
+  }
+  
+  .right-half {
+    
+    flex: 0.6;
+    padding: 1rem;
+  }
+
+  .img{
+      height:200px;
+      object-fit:contain;
+  }
+
+  .heading-one{
+      font-size:80px;
+      font-weight: 100;
+      color: lightcoral ;
+      text-align: left;
+  }
+
+  .heading-two{
+      font-size:80px;
+      color: black;
+      text-align: left;
+  }
+
+  .paragraph{
+      color:lightcoral;
+      text-align:left;
+  }
+
+  .logo{
+      margin-bottom: 100px;
+  }
+
+ 
+    
+  .input-box{
+    border-radius: 50px;
+   max-width:500px;
+   padding-top: 4px;
+   padding-left: 20px;
+   height:50px;
+   border: 1px solid hsl(0, 74%, 74%);
+  }
+
+.a{
+    position: relative;
+    height:50px;
+    max-width: 500px;
+}
+  .a button{
+position: absolute;
+width:100px;
+top:0;
+bottom:0;
+right:0;
+border:0;
+border-radius: 50px;
+background:linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%)) ;
+  }
